@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="img/icon.jpg" />
+		<title>FilMere</title>
+	</head>
+	<body>
+		<header>
+			<div class="logos">
+				<a href="#"
+					><img class="logo" src="img/logo.png" alt="Logo"
+				/></a>
+				<a
+					href="https://github.com/gateremark/FilMere"
+					title="GitHub Code"
+					target="_blank"
+					><img src="img/git.png" class="git" alt="GitHub Icon"
+				/></a>
+			</div>
+			<form id="form">
+				<input
+					type="text"
+					placeholder="Search for movie"
+					id="search"
+					class="search"
+				/>
+			</form>
+		</header>
+		<div id="tags"></div>
+		
+		<main id="main"></main>
+		<div class="pagination">
+			<div class="page" id="prev">&#8656; Prev</div>
+			<div class="current" id="current">1</div>
+			<div class="page" id="next">Next &#8658;</div>
+		</div>
+
+		
+		<script src="script.js"></script>
+		<script
+			src="https://kit.fontawesome.com/f7a442f79b.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
